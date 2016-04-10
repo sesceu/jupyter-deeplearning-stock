@@ -1,2 +1,15 @@
-fuel
+bokeh==0.10.0
 ystockquote
+six==1.9.0
+toolz==0.7.2
+progressbar2==3.6.0
+
+--allow-unverified blocks
+git+git://github.com/mila-udem/blocks.git
+
+--allow-unverified fuel
+git+https://github.com/mila-udem/fuel#egg=fuel
+
+--allow-unverified blocks-extras
+git+git://github.com/mila-udem/blocks-extras.git
+
